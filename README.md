@@ -25,6 +25,45 @@
         </ul>
     </nav>
    </header>
+    <style>
+    ul,li{
+        list-style: none;        
+    }
+    header{
+        display: flex;
+        background-color: #000;
+    }
+    header.mid{
+        margin-right: 45;
+    }
+    header nav.mid ul{
+        display: flex;
+        width: 100;
+    }
+    nav.mid ul li{
+        margin-right:115;
+        display: flex;
+        align-items: center;  
+        justify-content: space-between;    
+    }
+          h1.left img {
+        width: 100px;
+        margin-top: -20px;
+    }
+    h1.left{
+        width: fit-content;
+
+    }
+      nav.right ul {     
+        display: flex;
+        align-items: center;  
+        justify-content: space-between;    
+    }
+    nav.right ul li {
+        display: flex;
+        margin-left: 115px;
+        color: #fff;
+    }
 </body>
 </html>
 
